@@ -1,4 +1,5 @@
 n=int(input())
+n=abs(n) #removes the "-ve"
 dup=n
 revnum=0
 while n>0:
