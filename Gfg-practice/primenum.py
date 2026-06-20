@@ -1,5 +1,12 @@
-n=25
-if n/2!=0:
-    print("true")
-else:
-    print("false")
+class Solution:
+    def isPrime(self, n):
+        if n == 1:
+            return False
+
+        for i in range(2, n):
+            if n % i == 0:
+                return False
+        else:
+            return True
+obj = Solution()
+print(obj.isPrime(7))
