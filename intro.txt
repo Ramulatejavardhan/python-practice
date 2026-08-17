@@ -1,0 +1,16 @@
+created by "guido van rossam" in 1989.
+the python name is come from "Monty Python’s Flying Circus".
+Python is recommended as first programming language for beginners.
+its created by simple english.
+
+Every Python identifier must follow strict syntactic rules.
+Breaking any of these rules results in a SyntaxError.
+Allowed Characters: A combination of lowercase letters (a-z), uppercase letters (A-Z), digits (0-9), and underscores (_).
+Python 3 also supports non-ASCII Unicode characters.
+First Character: Must always start with a letter or an underscore (_).
+It cannot begin with a number.No Special Characters: Symbols like @, $, !, #, and % are completely prohibited.
+Whitespaces are also not allowed.
+Reserved Keywords: You cannot use Python's built-in keywords (such as if, else, for, while, or class) as custom identifiers.
+Case Sensitivity: Lowercase and uppercase letters are treated differently.
+For instance, employee_id, Employee_Id, and EMPLOYEE_ID represent three unique identifiers.
+Length Limits: There is no technical restriction on identifier length, though it should stay concise for code readability.
