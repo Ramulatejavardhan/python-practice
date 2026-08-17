@@ -1,0 +1,8 @@
+The oops concept is used to prevent from repeating the code again and again by writing.
+The oops we can use the classes and objects for reusability.
+it makes the code reuse and maintain.
+it mainly tells DRY"dont repeat yourself".
+
+#classes and objects
+The class is like a blueprint for an object.
+an object can be created based on the class.
