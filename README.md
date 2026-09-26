@@ -1,1 +1,1 @@
-practicing and learning python and maintain consistency.
+PYTHON PRACTICE
