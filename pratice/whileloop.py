@@ -5,7 +5,7 @@ right = len(nums) - 1
 
 while left < right:
     if nums[left] + nums[right] == 21:
-        print(nums[left])
+        print(f"indexes are {left},{right}")
         break
     elif nums[left] + nums[right] < 21:
         left += 1
