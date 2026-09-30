@@ -6,5 +6,4 @@ class student:
         self.dept=dept
 obj=student("tej",19,83,"AI&DS")
 print(obj.name)
-print(obj.age)
 print(obj.dept)
