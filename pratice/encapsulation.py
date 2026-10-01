@@ -8,10 +8,6 @@ class Student:
 
     def get_marks(self):
         return self.__marks
-
-
-student = Student(80)
-
-student.set_marks(95)
-
-print(student.get_marks())
+obj = Student(60)
+obj.set_marks(95)
+print(obj.get_marks())
