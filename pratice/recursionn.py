@@ -3,5 +3,5 @@ def fun(n):
         return
     print(n)
     fun(n - 1)
-    print("Done", n)
+    print(f"Done {n}")
 fun(3)
