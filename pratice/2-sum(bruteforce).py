@@ -6,3 +6,4 @@ for i in range(len(arr)):
             print(arr[i],",",arr[j])
         else:
             continue
+# Time complexity:(O(n^2)) in this we use 2 nested loops to find possible ways.
