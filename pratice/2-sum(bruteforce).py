@@ -7,3 +7,4 @@ for i in range(len(arr)):
         else:
             continue
 # Time complexity:(O(n^2)) in this we use 2 nested loops to find possible ways.
+# but it still needs the better version of bruteforce.
