@@ -7,7 +7,9 @@ while left<right:
     if total==target:
         print(arr[left],",",arr[right])
         break
-    elif total<arr[right]:
+    elif target<arr[right]:
         right=right-1
     else:
         left=left+1
+# Time complexity:O(n).
+# Space complexity:O(1).
