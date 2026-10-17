@@ -7,7 +7,7 @@ while left<right:
     if total==target:
         print(arr[left],",",arr[right])
         break
-    elif target<arr[right]:
+    elif target<total:
         right=right-1
     else:
         left=left+1
