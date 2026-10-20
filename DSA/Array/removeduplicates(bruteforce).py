@@ -1,9 +1,8 @@
 arr=[1,1,2,2,3]
+res=[]
 i=0
-j=i+1
-while arr[i]==len(arr)-1:
-    if arr[i]==arr[j]:
-        arr.remove(arr[j])
+while len(res)<len(arr):
+    if arr[i] in res:
+        pass
     else:
-        i=i+1
-        j=j+2
+        res.append(arr[i])
