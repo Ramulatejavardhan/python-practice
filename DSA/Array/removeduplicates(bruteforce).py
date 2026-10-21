@@ -8,3 +8,5 @@ while i<len(arr):
         res.append(arr[i])
     i=i+1
 print(res)
+"""In this we use the another array to move the values to if the value already exist we leave that
+and move to another value like wise so that we can get unique values in the list or array"""
