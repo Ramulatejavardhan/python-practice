@@ -7,3 +7,5 @@ for i in range(0,len(arr)):
     if arr[i]==0:
         res.append(arr[i])
 print(res)
+# time complexity:O(n) "O(n)+O(n)=O(2n)=O(n)".
+#space complexity:O(n).
