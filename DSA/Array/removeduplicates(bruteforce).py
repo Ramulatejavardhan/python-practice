@@ -6,5 +6,5 @@ while i<len(arr):
         pass
     else:
         res.append(arr[i])
-        i=i+1
+    i=i+1
 print(res)
