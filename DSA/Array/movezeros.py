@@ -11,5 +11,5 @@ while i<len(arr):
         j=j+1
         i=i+1
 print(arr)
-# Time complexity:O(n)
-# Space complexity:O(1)
+#Time complexity:O(n)
+#Space complexity:O(1)
