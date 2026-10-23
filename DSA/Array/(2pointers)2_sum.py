@@ -11,5 +11,5 @@ while left<right:
         right=right-1#chestham endhuku antey left move avvuthuntey value thaguthundhi.
     else:
         left=left+1
-# Time complexity:O(n).
-# Space complexity:O(1).
+# Time complexity:O(n)
+# Space complexity:O(1)
