@@ -9,6 +9,7 @@ while i<len(arr):
         arr[i]=arr[j]
         arr[j]=t
         j=j+1
+        i=i+1
 print(arr)
 # Time complexity:O(n)
 # Space complexity:O(1)
