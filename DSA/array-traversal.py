@@ -1,3 +1,3 @@
-arr=list(map(int,input().split()))
-for a in arr:
-    print(a)
+arrays=list(map(int,input().split()))
+for arr in arrays:
+    print(arr)
