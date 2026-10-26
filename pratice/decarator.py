@@ -4,3 +4,7 @@ def my_decorator(func):
         func()
         print("Finished")
     return wrapper
+@my_decorator
+def hello():
+    print("Hello")
+hello()
