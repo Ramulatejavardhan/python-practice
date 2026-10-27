@@ -4,8 +4,12 @@ import random
 t=0
 var=random.randint(100,999)
 print(var)
+varr=var
 while var!=0:
     a=var%10
     t=t+a*a*a
     var=var//10
-print(t)
+if t==varr:
+    print("Its a armstrong number")
+else:
+    print("Not an armstrong")
