@@ -2,4 +2,3 @@
 checking is it armstrong or not."""
 import random
 var=random.randint(100,999)
-print(var)
