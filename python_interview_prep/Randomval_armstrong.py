@@ -3,7 +3,6 @@ checking is it armstrong or not."""
 import random
 t=0
 var=random.randint(100,9999)
-print(var)
 power=len(str(var))
 varr=var
 while var!=0:
@@ -11,6 +10,6 @@ while var!=0:
     t=t+a**power
     var=var//10
 if t==varr:
-    print(f"{varr} Its a armstrong number")
+    print(f"{varr} is armstrong number")
 else:
     print(f"{varr} Not an armstrong")
