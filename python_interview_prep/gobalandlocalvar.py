@@ -1,4 +1,8 @@
-x = 5
-def change():
-    x = 15
-    print(x)
+def outer():
+    count = 10
+    def inner():
+        nonlocal count
+        count = 20
+    inner()
+    print(count)
+outer()
