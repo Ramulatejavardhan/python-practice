@@ -2,4 +2,4 @@
 #Python collects those arguments into a tuple.
 def val(*args):
     print(args)
-val(10,20,30)
+val(10,20,30,40)
